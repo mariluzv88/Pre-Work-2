@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body>
+  <h2 class="title"> Tip Calculator</h2>
+  <div class="card">
+    <div class="card-container">
+      <div class="inputs-section">
+        <div class="bill-sec">
+             <label for="bill">Bill</label>
+               <div class="bill-input">
+                 <input type="text" placeholder="0" id="bill">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7QwC6txkTOtGmgIwh
+                   gZOiVSY9eQFQwz7QWq3BH34ww&usqp=CAU&ec=48665701" alt="dollar">
+               </div>
+        </div>
+          <div class="tip-sec">
+           <label for="tip">Select Tip %</label>
+           <div class="tip-btns">
+             <div>
+               <button>5%</button>
+               <button>10%</button>
+               <button>20%</button>
+               <button>25%</button>
+          
+             </div>
+          </div>
+               
+        </div>
+        <div class="people-sec">
+          <label for="people">Number of People</label>
+          <div class="people-input">
+            <input type="text" placeholder="0" id="people">
+            <img src="https://www.iconpacks.net/icons/1/free-user-icon-295-thumb.png" alt="person">
+              
+      </div> 
+    </div>
+  </div>
+    <divclass="outputs-section">
+    <div class="tip-amount">
+      <p>Tip Amount <br><span>per person</span></p>
+      <h2 id="tipAmount">$0.00</h2>
+    </div>
+      <div class="Total">
+        <p>Total <br><span>Tip Amount</span></p>
+        <h2 id="total">$0.00</h2>
+      </div>
+      <button class="reset-btn" id="resetBtn">Reset</button>
+    </div>
+  </div>
+</div>
+  <script src="app.js"></script>
+ 
+</body>
+
+</html>
